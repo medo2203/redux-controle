@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Moon+Dance&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #1f306e;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.logo h1{
+    color: #f5487f;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Moon Dance', cursive;
+    margin-left:30px;
+
+}
+.nav-items{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    align-items: center;
+}
+.profile button{
+    height: 45px;
+    margin-left: 20px ;
+    width: 100px;
+}
+.profile #snup{
+    border-radius: 15px;
+    color: #f5487f;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: medium;
+    transition: 0.2s;
+}
+.profile #snup:hover{
+    color: #f5487f;
+    text-shadow: 0px 0px 20px white;
+    cursor: pointer;
+}
+.profile #snin{
+    background-color: #1f306e;
+    border: 2px solid #f5487f;
+    border-radius: 15px;
+    color: #f5487f;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: medium;
+}
+.profile #snin:hover{
+    background-color: #f5487f;
+    border: 2px solid #1f306e ;
+    color: #1f306e;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}

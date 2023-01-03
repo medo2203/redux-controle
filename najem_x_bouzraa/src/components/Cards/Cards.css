@@ -1,0 +1,39 @@
+.cards-container{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+.cards-self{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 80%;
+    width: 20%;
+}
+.cards-img{
+    height: 50%;
+}
+.cards-img img{
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+.cards-info{
+    height:20%;
+}   
+.cards-info p{
+    margin-left: 30px;
+}   
+.cards-info h4{
+    margin-left: 30px;
+}
+.cards-btn{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-btn button{
+    height: 40px;
+    width: 100px;
+}
