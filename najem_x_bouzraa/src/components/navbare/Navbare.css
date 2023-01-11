@@ -2,12 +2,13 @@
 body{
     padding: 0;
     margin: 0;
+    user-select: none;
 }
 .nav-container{
     width: 100%;
     height: 80px;
     display: flex;
-    background-color: #1f306e;
+    background-color: #fdfbf4;
 }
 .logo{
     display: flex;
@@ -20,7 +21,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Moon Dance', cursive;
     margin-left:30px;
-
+    margin-top: 10px;
+    font-weight: bolder;
 }
 .nav-items{
     display: flex;
@@ -28,6 +30,19 @@ body{
     height: 100%;
     justify-content: space-around;
     align-items: center;
+}
+.nav-items li{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.active{
+    color: #f5487f;
+}
+.nav-items li:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 10px #f5487f;
 }
 .profile{
     display: flex;
@@ -40,6 +55,9 @@ body{
     margin-left: 20px ;
     width: 100px;
 }
+a{
+    text-decoration: none;
+}
 .profile #snup{
     border-radius: 15px;
     color: #f5487f;
@@ -50,11 +68,11 @@ body{
 }
 .profile #snup:hover{
     color: #f5487f;
-    text-shadow: 0px 0px 20px white;
+    text-shadow: 0px 0px 20px #820d32;
     cursor: pointer;
 }
 .profile #snin{
-    background-color: #1f306e;
+    background-color: #fdfbf4;
     border: 2px solid #f5487f;
     border-radius: 15px;
     color: #f5487f;
@@ -65,8 +83,8 @@ body{
 }
 .profile #snin:hover{
     background-color: #f5487f;
-    border: 2px solid #1f306e ;
-    color: #1f306e;
+    border: 2px solid #fdfbf4 ;
+    color: #fdfbf4;
     cursor: pointer;
 }
 li{

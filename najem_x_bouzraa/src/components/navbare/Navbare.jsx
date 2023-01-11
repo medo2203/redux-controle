@@ -1,3 +1,4 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import "./Navbare.css"
 const Navbare = () =>{
     return( 
@@ -6,14 +7,22 @@ const Navbare = () =>{
                 <h1>Lo3Baty</h1>
             </div>
             <div className="nav-items">
+                <Link to='/Hero'>
                 <li>Home</li>
+                </Link>
+                <Link to='/Cards'>
                 <li>Games</li>
+                </Link>
+                <Link>
                 <li>Store</li>
+                </Link>
+                <Link>
                 <li>Comunity</li>
+                </Link>
             </div>
             <div className="profile">
-                <p id="snup">Sign up</p>
-                <button id="snin">Sign in</button>
+                <p id="snup">Sign in</p>
+                <button id="snin">Sign up</button>
             </div>
         </div>
     )

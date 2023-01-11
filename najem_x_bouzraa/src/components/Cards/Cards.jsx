@@ -7,7 +7,6 @@ const Cards = () => {
          data.map((elem)=>{   
             return (
                 <div className="cards-self">
-                    {console.log(elem.pecture)}
                     <div className="cards-img">
                         <img src={elem.pecture} />
                     </div>
