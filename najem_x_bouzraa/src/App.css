@@ -3,9 +3,9 @@ html{
 }
 body{
     height: 100%;
+    background-color: #bffce8;
 }
 .App{
-    position: fixed;
     height: 100%;
     width: 100%;
 }

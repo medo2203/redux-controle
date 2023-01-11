@@ -3,6 +3,8 @@ import data from "./Data"
 const Cards = () => {
     return (
     <div className="cards-container">
+        <div className="cards-irea">
+
         {
          data.map((elem)=>{   
             return (
@@ -20,6 +22,7 @@ const Cards = () => {
                 </div>
         )
     })}
+        </div>
     </div>
     )
    

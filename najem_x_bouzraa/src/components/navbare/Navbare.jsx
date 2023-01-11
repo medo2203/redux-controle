@@ -13,7 +13,7 @@ const Navbare = () =>{
                 <Link to='/Cards'>
                 <li>Games</li>
                 </Link>
-                <Link>
+                <Link to='/Store'>
                 <li>Store</li>
                 </Link>
                 <Link>

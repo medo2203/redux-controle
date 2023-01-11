@@ -11,9 +11,24 @@ const data = [
         price: "40$"
     },
     {
-        pecture:"../../../images/acv.jpg",
+        pecture:"../../../images/acv.png",
         title: "Assasin's cread Valhala",
         price: "20$"
+    },
+    {
+        pecture:"../../../images/fifa23.jpg",
+        title: "Fifa 23",
+        price: "60$"
+    },
+    {
+        pecture:"../../../images/fifa23.jpg",
+        title: "Fifa 23",
+        price: "60$"
+    },
+    {
+        pecture:"../../../images/fifa23.jpg",
+        title: "Fifa 23",
+        price: "60$"
     },
     {
         pecture:"../../../images/fifa23.jpg",
