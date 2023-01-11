@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    background-color: #bffce8;
+    background-color: #072227;
+    
 }
 .cards-irea{
     flex-direction:row;
+    justify-content: center;
     width: 90%;
     height: 80%;
     display: flex;
@@ -13,7 +15,8 @@
 }
 .cards-self{
     margin: 10px;
-    border: 3px solid black;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 .cards-img{
     border-radius: 20px;
@@ -46,4 +49,7 @@
 .cards-btn button{
     height: 40px;
     width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+
 }
