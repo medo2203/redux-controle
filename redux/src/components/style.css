@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+}
+.task-manager{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.cnt1{
+    width: 80%;
+    background-color: #404040;
+    text-align: center;
+    height: 20%;
+    margin: 20px;
+}
+.cnt1 input,button{
+    margin-top: 20px;
+    height: 40px;
+}
+.cnt1 input{
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #1f86d6;
+    letter-spacing: 1px;
+    font:  bold 16px/10px cursive;
+    padding-left: 10px;
+    color: white;
+}
+.cnt1 input:focus{
+    outline: none;
+    box-shadow: -0px 2px 2px #1f86d6;
+}
+.cnt1 button{
+    background-color: #1f86d6;
+    border:2px solid #1f86d6;
+    color: white;
+    width: 90px;
+    border-radius: 10px;
+    margin: 10px;
+    font: bold 14px cursive;
+    transition: 0.2s;
+}
+.cnt1 button:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+.tasks{
+    width: 50%;
+    border: none;
+    overflow-y: auto;
+    margin: 10px;
+}
+.tasks::-webkit-scrollbar-track
+{
+	border: none;
+	background-color: transparent;
+    border-radius: 20px;
+}
+.tasks::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: transparent;
+}
+.tasks::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+	background-image: linear-gradient(to top, #1f86d6,#ad61c8 50%,#1f86d6);
+}
+.task{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-align: start;
+    height: 60px;
+    background-color:#1f86d6 ;
+    border-radius: 10px;
+    font: bold x-large cursive;
+    color:white;
+}
+.info{
+    width: 90%;
+}
+.btns{
+    width: 30%;
+    display: flex;
+    justify-content: start;
+}
+.task p {
+    margin: 20px;
+}
+.save-area{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#save-npt{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    letter-spacing: 1px;
+    font:  bold 16px/10px cursive;
+    padding-left: 10px;
+    color: white;
+}
+#save-npt:focus{
+    outline: none;
+}
+.task #save-btn{
+    z-index: 9999;
+    height: 50px;
+    border-radius: 20px;
+    width: 90px;
+    margin: 10px;
+    background-color: green;
+    border: none;
+    font: bold medium cursive;
+    color: white     ;
+    transition: 0.5s;
+}
+#save-btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+#del:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+#update:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+.task #del{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    margin-left: 4px;
+    background-color: red;
+    border: none;
+    font: bold medium cursive;
+    color: white ;
+    transition: 0.5s;
+}
+.task #update{
+    height: 50px;
+    border-radius: 20px;
+    width: 90px;
+    margin: 10px;
+    margin-right: 0;
+    background-color: rgba(255, 251, 0, 0.852);
+    border: none;
+    font: bold medium cursive;
+    color: white;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px;
+}
